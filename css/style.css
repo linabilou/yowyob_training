@@ -8,6 +8,16 @@
   }
 
 
+  /* CUSTOM CSS */
+
+  .sous-formation{
+    display: none;
+  }
+
+  ul li:hover .sous-formation{
+    display: block;
+  }
+
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
