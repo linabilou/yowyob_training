@@ -37,7 +37,32 @@ use App\Http\Livewire\Users;
 |
 */
 
-Route::redirect('/', '/login');
+
+
+Route::redirect('/', '/home');
+
+// routes of the front end
+Route::get('/home', function()
+{
+   return View::make('front_end.home');
+});
+
+Route::get('/apropo', function()
+{
+   return View::make('front_end.apropo');
+});
+
+Route::get('/formations', function()
+{
+   return View::make('front_end.formations');
+});
+
+Route::get('/publications', function()
+{
+   return View::make('front_end.publications');
+});
+
+  
 
 Route::get('/register', Register::class)->name('register');
 
