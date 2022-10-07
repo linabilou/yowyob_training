@@ -25,7 +25,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\ResetPasswordExample;
 use App\Http\Livewire\UpgradeToPro;
 use App\Http\Livewire\Users;
-
+use \App\Http\Controllers\FormationsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,32 +37,6 @@ use App\Http\Livewire\Users;
 |
 */
 
-
-
-Route::redirect('/', '/home');
-
-// routes of the front end
-Route::get('/home', function()
-{
-   return View::make('front_end.home');
-});
-
-Route::get('/apropo', function()
-{
-   return View::make('front_end.apropo');
-});
-
-Route::get('/formations', function()
-{
-   return View::make('front_end.formations');
-});
-
-Route::get('/publications', function()
-{
-   return View::make('front_end.publications');
-});
-
-  
 
 Route::get('/register', Register::class)->name('register');
 
@@ -94,3 +68,30 @@ Route::middleware('auth')->group(function () {
     Route::get('/modals', Modals::class)->name('modals');
     Route::get('/typography', Typography::class)->name('typography');
 });
+
+
+//my modifictions starts here
+
+
+Route::redirect('/', '/home');
+
+// routes of the front end
+Route::get('/home', function()
+{
+   return View::make('front_end.home');
+});
+
+Route::get('/apropo', function()
+{
+   return View::make('front_end.apropo');
+});
+
+
+Route::get('/publications', function()
+{
+   return View::make('front_end.publications');
+});
+
+// routes of the back end
+#Route::get('/formations', 'home@home')->name('formations');
+Route::get('formations', [FormationsController::class, 'index']);
