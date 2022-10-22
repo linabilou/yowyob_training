@@ -32,7 +32,7 @@
                               <!-- <li id="home"><a href="./team" class="smoothScroll">Nos Services</a></li> -->
                               <li id="apropo"><a href="/apropo" class="smoothScroll">A Propos de nous</a></li>
                               <!-- <li id="home"><a href="#testimonial" class="smoothScroll">Reviews</a></li> -->
-                              <li ><a href="contact" class="smoothScroll">Contact</a></li>
+                              <li ><a href="#footer" class="smoothScroll">Contact</a></li>
                          </ul> 
 
                          <ul class="nav navbar-nav navbar-right">

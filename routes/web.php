@@ -26,6 +26,7 @@ use App\Http\Livewire\ResetPasswordExample;
 use App\Http\Livewire\UpgradeToPro;
 use App\Http\Livewire\Users;
 use \App\Http\Controllers\FormationsController;
+use \App\Http\Controllers\PublicationsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -87,11 +88,9 @@ Route::get('/apropo', function()
 });
 
 
-Route::get('/publications', function()
-{
-   return View::make('front_end.publications');
-});
+
 
 // routes of the back end
 #Route::get('/formations', 'home@home')->name('formations');
 Route::get('formations', [FormationsController::class, 'index']);
+Route::get('publications', [PublicationsController::class, 'index']);

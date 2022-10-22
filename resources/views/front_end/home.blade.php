@@ -498,7 +498,8 @@
 
                          <div class="col-md-6 col-sm-12">
                               <div class="contact-image">
-                                   <img src="{{URL::asset('front_end/images/contact-image.jpg')}}" class="img-responsive" alt="Smiling Two Girls">
+                                   <!--<img src="{{URL::asset('front_end/images/contact-image.jpg')}}" class="img-responsive" alt="Smiling Two Girls">-->
+                                                                                                                   
                               </div>
                          </div>
 

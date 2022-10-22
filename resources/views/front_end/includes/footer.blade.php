@@ -30,8 +30,8 @@
                                         <h2>Contact Info</h2>
                                    </div>
                                    <address>
-                                        <p>+65 2244 1100, +66 1800 1100</p>
-                                        <p><a href="mailto:youremail.co">hello@youremail.co</a></p>
+                                        <p>+237 690 550 568, +237 690 550 568</p>
+                                        <p><a href="mailto:youremail.co">hello@youremail.com</a></p>
                                    </address>
 
                                    <div class="footer_menu">

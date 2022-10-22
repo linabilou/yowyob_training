@@ -1,4 +1,4 @@
-<title>Volt Laravel Dashboard - User management</title>
+<title>yowyob Laravel Dashboard - User management</title>
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
     <div class="d-block mb-4 mb-md-0">
         <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
@@ -13,12 +13,11 @@
                         </svg>
                     </a>
                 </li>
-                <li class="breadcrumb-item"><a href="#">Volt</a></li>
+                <li class="breadcrumb-item"><a href="#">yowyob</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Users List</li>
             </ol>
         </nav>
         <h2 class="h4">Users List</h2>
-        <p class="mb-0">Your web analytics dashboard template.</p>
     </div>
     <div class="btn-toolbar mb-2 mb-md-0">
         <a href="#" class="btn btn-sm btn-gray-800 d-inline-flex align-items-center">
@@ -111,10 +110,7 @@
         </div>
     </div>
 </div>
-<div class="alert alert-danger" role="alert">
-    Add, Edit, Delete features are not functional. This is a PRO feature! Click <a
-        href="https://volt-pro-laravel-admin-dashboard.updivision.com/" target="_blank">here</a> to see the PRO product.
-</div>
+
 <div class="card card-body shadow border-0 table-wrapper table-responsive">
     <div class="d-flex mb-3">
         <select class="form-select fmxw-200" aria-label="Message select example">
@@ -157,7 +153,7 @@
                             alt="Avatar">
                         <div class="d-block">
                             <span class="fw-bold">Admin</span>
-                            <div class="small text-gray">admin@volt.com</div>
+                            <div class="small text-gray">admin@yowyob.com</div>
                         </div>
                     </a>
                 </td>
